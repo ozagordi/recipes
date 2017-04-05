@@ -1,0 +1,23 @@
+package:
+  name: virmet
+  version: "v1.0rc1"
+
+source:
+  git_rev: v1.0rc1
+  git_url: https://github.com/ozagordi/VirMet.git
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - biopython
+    - pandas
+
+about:
+  home: http://virmet.readthedocs.io
+  summary: 'A pipeline for viral metagenomics'
+  license:
+  license_file:
